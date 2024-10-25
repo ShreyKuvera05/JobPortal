@@ -1,0 +1,16 @@
+legend.float-none.w-auto.p-2 {
+  font-size: 13px;
+  color: royalblue;
+}
+fieldset.border.p-2 {
+  border: 1px solid lightgrey !important;
+}
+
+textarea:focus {
+  background: black;
+  color: white;
+}
+
+.textColor:focus {
+  color: white;
+}
