@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types"; // Import PropTypes
 import { base_path } from "../../environment";
 const ImageWithBasePath = (props) => {
-  // Combine the base path and the provided src to create the full image source URL
-  const fullSrc = `${base_path}${props.src}`;
+  // const fullSrc = `${base_path}${props.src}`;
+  const fullSrc = `${process.env.PUBLIC_URL}${base_path}${props.src}`;
   return (
     <img
       className={props.className}

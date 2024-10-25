@@ -257,6 +257,7 @@ const CandidateEnrollment = () => {
 
       console.log(JSON.stringify(formData));
     } else {
+      console.log(JSON.stringify(formData));
       toast.error("Form Validation Failed");
     }
   };
